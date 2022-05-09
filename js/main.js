@@ -1,2 +1,7 @@
 import "../scss/main.scss";
-console.log("hello");
+
+async function test() {
+  const promise = Promise.resolve(441);
+  console.log(await promise);
+}
+test();
